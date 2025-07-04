@@ -11,7 +11,9 @@ d) DCL
 e) TCL
 
 FOLLOWING CHART WILL HELP IN UNDERSTANDING THEM IN A BETTER WAY
-SQL commands are instructions. It is used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data. SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission for users. Types of SQL Commands There are five types of SQL commands: DDL, DML, DCL, TCL, and DQL.
+
+
++----+----
 1. Data Definition Language (DDL)  DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc. All the command of DDL are auto-committed that means it permanently save all the changes in the database. Here are some commands that come under DDL:
  CREATE, ALTER , DROP , TRUNCATE . CREATE is used to create a new table in the database. Syntax:
 1. CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[,....]); Example:
